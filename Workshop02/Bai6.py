@@ -1,0 +1,5 @@
+values = input('Nhap day so :')
+a = values.split(',')
+b = tuple(a)
+print(a)
+print(b)
