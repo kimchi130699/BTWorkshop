@@ -6,7 +6,7 @@ class Shape():
 class Square(Shape):
     def __init__(self,a):
         Shape.__init__(self)
-        self.lenght = a 
+        self.lenght = a
     def area(self):
         return self.lenght**2
 c = int(input('Nhap canh a = '))
